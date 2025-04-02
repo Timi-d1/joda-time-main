@@ -1,0 +1,2810 @@
+JUnit version 4.13.2
+.E
+Time: 0.006
+There was 1 failure:
+1) initializationError(ErrorTest0)
+java.lang.NoClassDefFoundError: org/joda/time/Chronology
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.privateGetMethodRecursive(Class.java:3048)
+	at java.lang.Class.getMethod0(Class.java:3018)
+	at java.lang.Class.getMethod(Class.java:1784)
+	at org.junit.internal.builders.SuiteMethodBuilder.hasSuiteMethod(SuiteMethodBuilder.java:18)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:10)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.runners.model.RunnerBuilder.runners(RunnerBuilder.java:125)
+	at org.junit.runners.model.RunnerBuilder.runners(RunnerBuilder.java:111)
+	at org.junit.runners.Suite.<init>(Suite.java:102)
+	at org.junit.runners.Suite.<init>(Suite.java:70)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:107)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at org.junit.runner.Computer.getRunner(Computer.java:50)
+	at org.junit.runner.Computer$1.runnerForClass(Computer.java:31)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.runners.model.RunnerBuilder.runners(RunnerBuilder.java:125)
+	at org.junit.runners.model.RunnerBuilder.runners(RunnerBuilder.java:111)
+	at org.junit.runners.Suite.<init>(Suite.java:81)
+	at org.junit.runner.Computer$2.<init>(Computer.java:33)
+	at org.junit.runner.Computer.getSuite(Computer.java:28)
+	at org.junit.runner.Request.classes(Request.java:77)
+	at org.junit.runner.JUnitCommandLineParseResult.createRequest(JUnitCommandLineParseResult.java:116)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+Caused by: java.lang.ClassNotFoundException: org.joda.time.Chronology
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 34 more
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+JUnit version 4.13.2
+JUnit version 4.13.2
+.E.E.E
+Time: 0.011
+There were 3 failures:
+1) initializationError(RegressionTest0)
+java.lang.NoClassDefFoundError: org/joda/time/IllegalFieldValueException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.privateGetMethodRecursive(Class.java:3048)
+	at java.lang.Class.getMethod0(Class.java:3018)
+	at java.lang.Class.getMethod(Class.java:1784)
+	at org.junit.internal.builders.SuiteMethodBuilder.hasSuiteMethod(SuiteMethodBuilder.java:18)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:10)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.runners.model.RunnerBuilder.runners(RunnerBuilder.java:125)
+	at org.junit.runners.model.RunnerBuilder.runners(RunnerBuilder.java:111)
+	at org.junit.runners.Suite.<init>(Suite.java:102)
+	at org.junit.runners.Suite.<init>(Suite.java:70)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:107)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at org.junit.runner.Computer.getRunner(Computer.java:50)
+	at org.junit.runner.Computer$1.runnerForClass(Computer.java:31)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.runners.model.RunnerBuilder.runners(RunnerBuilder.java:125)
+	at org.junit.runners.model.RunnerBuilder.runners(RunnerBuilder.java:111)
+	at org.junit.runners.Suite.<init>(Suite.java:81)
+	at org.junit.runner.Computer$2.<init>(Computer.java:33)
+	at org.junit.runner.Computer.getSuite(Computer.java:28)
+	at org.junit.runner.Request.classes(Request.java:77)
+	at org.junit.runner.JUnitCommandLineParseResult.createRequest(JUnitCommandLineParseResult.java:116)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+Caused by: java.lang.ClassNotFoundException: org.joda.time.IllegalFieldValueException
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 34 more
+2) initializationError(RegressionTest1)
+java.lang.NoClassDefFoundError: org/joda/time/Chronology
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.privateGetMethodRecursive(Class.java:3048)
+	at java.lang.Class.getMethod0(Class.java:3018)
+	at java.lang.Class.getMethod(Class.java:1784)
+	at org.junit.internal.builders.SuiteMethodBuilder.hasSuiteMethod(SuiteMethodBuilder.java:18)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:10)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.runners.model.RunnerBuilder.runners(RunnerBuilder.java:125)
+	at org.junit.runners.model.RunnerBuilder.runners(RunnerBuilder.java:111)
+	at org.junit.runners.Suite.<init>(Suite.java:102)
+	at org.junit.runners.Suite.<init>(Suite.java:70)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:107)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at org.junit.runner.Computer.getRunner(Computer.java:50)
+	at org.junit.runner.Computer$1.runnerForClass(Computer.java:31)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.runners.model.RunnerBuilder.runners(RunnerBuilder.java:125)
+	at org.junit.runners.model.RunnerBuilder.runners(RunnerBuilder.java:111)
+	at org.junit.runners.Suite.<init>(Suite.java:81)
+	at org.junit.runner.Computer$2.<init>(Computer.java:33)
+	at org.junit.runner.Computer.getSuite(Computer.java:28)
+	at org.junit.runner.Request.classes(Request.java:77)
+	at org.junit.runner.JUnitCommandLineParseResult.createRequest(JUnitCommandLineParseResult.java:116)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+Caused by: java.lang.ClassNotFoundException: org.joda.time.Chronology
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 34 more
+3) initializationError(RegressionTest2)
+java.lang.NoClassDefFoundError: org/joda/time/ReadablePeriod
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.privateGetMethodRecursive(Class.java:3048)
+	at java.lang.Class.getMethod0(Class.java:3018)
+	at java.lang.Class.getMethod(Class.java:1784)
+	at org.junit.internal.builders.SuiteMethodBuilder.hasSuiteMethod(SuiteMethodBuilder.java:18)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:10)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.runners.model.RunnerBuilder.runners(RunnerBuilder.java:125)
+	at org.junit.runners.model.RunnerBuilder.runners(RunnerBuilder.java:111)
+	at org.junit.runners.Suite.<init>(Suite.java:102)
+	at org.junit.runners.Suite.<init>(Suite.java:70)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:107)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at org.junit.runner.Computer.getRunner(Computer.java:50)
+	at org.junit.runner.Computer$1.runnerForClass(Computer.java:31)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.runners.model.RunnerBuilder.runners(RunnerBuilder.java:125)
+	at org.junit.runners.model.RunnerBuilder.runners(RunnerBuilder.java:111)
+	at org.junit.runners.Suite.<init>(Suite.java:81)
+	at org.junit.runner.Computer$2.<init>(Computer.java:33)
+	at org.junit.runner.Computer.getSuite(Computer.java:28)
+	at org.junit.runner.Request.classes(Request.java:77)
+	at org.junit.runner.JUnitCommandLineParseResult.createRequest(JUnitCommandLineParseResult.java:116)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+Caused by: java.lang.ClassNotFoundException: org.joda.time.ReadablePeriod
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 34 more
+
+FAILURES!!!
+Tests run: 3,  Failures: 3
+
+JUnit version 4.13.2
+JUnit version 4.13.2
+JUnit version 4.13.2
+JUnit version 4.13.2
+.E.E.E.E.E..E...E.E.E.E.E
+Time: 0.119
+There were 11 failures:
+1) test01(ErrorTest0)
+java.lang.AssertionError: Contract failed: compareTo-equals on dateTime1 and dateTime21
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at ErrorTest0.test01(ErrorTest0.java:33)
+2) test02(ErrorTest0)
+java.lang.AssertionError: Contract failed: compareTo-equals on dateTime1 and dateTime21
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at ErrorTest0.test02(ErrorTest0.java:59)
+3) test03(ErrorTest0)
+java.lang.AssertionError: Contract failed: compareTo-equals on dateTime5 and dateTime21
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at ErrorTest0.test03(ErrorTest0.java:85)
+4) test04(ErrorTest0)
+java.lang.AssertionError: Contract failed: compareTo-equals on dateTime1 and dateTime21
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at ErrorTest0.test04(ErrorTest0.java:111)
+5) test05(ErrorTest0)
+java.lang.AssertionError: Contract failed: compareTo-equals on dateTime1 and dateTime21
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at ErrorTest0.test05(ErrorTest0.java:137)
+6) test07(ErrorTest0)
+java.lang.AssertionError: Contract failed: compareTo-equals on dateTime21 and dateTime50
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at ErrorTest0.test07(ErrorTest0.java:210)
+7) test10(ErrorTest0)
+java.lang.AssertionError: Contract failed: compareTo-equals on yearMonthDay19 and yearMonthDay28
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at ErrorTest0.test10(ErrorTest0.java:341)
+8) test11(ErrorTest0)
+java.lang.AssertionError: Contract failed: compareTo-equals on dateTime1 and dateTime10
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at ErrorTest0.test11(ErrorTest0.java:355)
+9) test12(ErrorTest0)
+java.lang.AssertionError: Contract failed: compareTo-equals on dateMidnight2 and dateMidnight42
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at ErrorTest0.test12(ErrorTest0.java:394)
+10) test13(ErrorTest0)
+java.lang.AssertionError: Contract failed: compareTo-equals on dateMidnight6 and mutableDateTime9
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at ErrorTest0.test13(ErrorTest0.java:423)
+11) test14(ErrorTest0)
+java.lang.AssertionError: Contract failed: compareTo-equals on yearMonthDay19 and yearMonthDay28
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at ErrorTest0.test14(ErrorTest0.java:501)
+
+FAILURES!!!
+Tests run: 14,  Failures: 11
+
+JUnit version 4.13.2
+.E.E.E.E.E..E...E.E.E.E.E
+Time: 0.098
+There were 11 failures:
+1) test01(ErrorTest0)
+java.lang.AssertionError: Contract failed: compareTo-equals on dateTime1 and dateTime21
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at ErrorTest0.test01(ErrorTest0.java:33)
+2) test02(ErrorTest0)
+java.lang.AssertionError: Contract failed: compareTo-equals on dateTime1 and dateTime21
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at ErrorTest0.test02(ErrorTest0.java:59)
+3) test03(ErrorTest0)
+java.lang.AssertionError: Contract failed: compareTo-equals on dateTime5 and dateTime21
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at ErrorTest0.test03(ErrorTest0.java:85)
+4) test04(ErrorTest0)
+java.lang.AssertionError: Contract failed: compareTo-equals on dateTime1 and dateTime21
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at ErrorTest0.test04(ErrorTest0.java:111)
+5) test05(ErrorTest0)
+java.lang.AssertionError: Contract failed: compareTo-equals on dateTime1 and dateTime21
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at ErrorTest0.test05(ErrorTest0.java:137)
+6) test07(ErrorTest0)
+java.lang.AssertionError: Contract failed: compareTo-equals on dateTime21 and dateTime50
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at ErrorTest0.test07(ErrorTest0.java:210)
+7) test10(ErrorTest0)
+java.lang.AssertionError: Contract failed: compareTo-equals on yearMonthDay19 and yearMonthDay28
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at ErrorTest0.test10(ErrorTest0.java:341)
+8) test11(ErrorTest0)
+java.lang.AssertionError: Contract failed: compareTo-equals on dateTime1 and dateTime10
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at ErrorTest0.test11(ErrorTest0.java:355)
+9) test12(ErrorTest0)
+java.lang.AssertionError: Contract failed: compareTo-equals on dateMidnight2 and dateMidnight42
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at ErrorTest0.test12(ErrorTest0.java:394)
+10) test13(ErrorTest0)
+java.lang.AssertionError: Contract failed: compareTo-equals on dateMidnight6 and mutableDateTime9
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at ErrorTest0.test13(ErrorTest0.java:423)
+11) test14(ErrorTest0)
+java.lang.AssertionError: Contract failed: compareTo-equals on yearMonthDay19 and yearMonthDay28
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at ErrorTest0.test14(ErrorTest0.java:501)
+
+FAILURES!!!
+Tests run: 14,  Failures: 11
+
+JUnit version 4.13.2
+..........................................................................E............................................E.........................E....E..........................E...................E..........................E......E...................E........E........E.......E................E......E..........E.......E.E....E....E...E.........E....E.................E.....E......E.E.......E......E....E.E.E....E...E....E.........E...E.....E...E....E.....E.......E..E.E.........E....E..........................E....E.E......E...................E........E..E..E.............................E....E.E............E..........E..........E.......E..E......E...E.....E...E....E..E.................E.E..E....E..E.......E.E....E..E.E................E....E.....E....E....E..........E..E...E..E.......E......E..E..E...E.E.E..E.........E.............E...E.....E.....E.E.E...E...E.E.E....E..E....E.....E.....E......E.....E....E......E.E...E...E..E.............E....E....E.E......E.....E..................E.....E.E..E....E.E..E..E.....E.E.......E........E.E.......E.E.E..E......E.E..E...E........E......E.E........E.E...E.........E.....E..E....E.E..E.............E.....E...E.....E............................E...........................E...E.E.E........E.......E........E.E...E..E.................E.......E.E..E.E.E................E.E.E...E..E....................E....................E...E.........E.E...E....E.E.......E..E.......E.........E.....E..E......E.E..E........E.................E.E..E....................E......E.E...E...E...........E............E.......E........E.....E.E..E.........E.E........E..E......................E........E...E....E..E..E.E...E..E.....E
+Time: 0.582
+There were 230 failures:
+1) test0074(RegressionTest0)
+java.lang.AssertionError: '30' != '31'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0074(RegressionTest0.java:1241)
+2) test0118(RegressionTest0)
+org.junit.ComparisonFailure: '1969-12-18T19:00:00.007-05:00/1969-12-18T19:00:00.097-05:00' != '1969-12-19T00:00:00.007Z/1969-12-19T00:00:00.097Z' expected:<1969-12-1[8T19:00:00.007-05:00/1969-12-18T19:00:00.097-05:00]> but was:<1969-12-1[9T00:00:00.007Z/1969-12-19T00:00:00.097Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0118(RegressionTest0.java:2239)
+3) test0143(RegressionTest0)
+org.junit.ComparisonFailure: '7' != '0' expected:<[7]> but was:<[0]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0143(RegressionTest0.java:2780)
+4) test0147(RegressionTest0)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest0.test0147(RegressionTest0.java:2847)
+5) test0173(RegressionTest0)
+org.junit.ComparisonFailure: '2025-04-01T00:00:00.000-04:00' != '2025-04-01T00:00:00.000Z' expected:<...5-04-01T00:00:00.000[-04:00]> but was:<...5-04-01T00:00:00.000[Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0173(RegressionTest0.java:3304)
+6) test0192(RegressionTest0)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest0.test0192(RegressionTest0.java:3874)
+7) test0218(RegressionTest0)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0218(RegressionTest0.java:4393)
+8) test0224(RegressionTest0)
+java.lang.AssertionError: '-1' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0224(RegressionTest0.java:4514)
+9) test0243(RegressionTest0)
+org.junit.ComparisonFailure: 'Wednesday' != 'Thursday' expected:<[Wedne]sday> but was:<[Thur]sday>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0243(RegressionTest0.java:4926)
+10) test0251(RegressionTest0)
+java.lang.AssertionError: '6' != '-1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0251(RegressionTest0.java:5230)
+11) test0259(RegressionTest0)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0259(RegressionTest0.java:5456)
+12) test0266(RegressionTest0)
+org.junit.ComparisonFailure: 'Eastern Standard Time' != 'Coordinated Universal Time' expected:<[Eastern Standard] Time> but was:<[Coordinated Universal] Time>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0266(RegressionTest0.java:5648)
+13) test0282(RegressionTest0)
+arrays first differed at element [2]; expected:<0> but was:<-3181>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest0.test0282(RegressionTest0.java:5956)
+	... 41 trimmed
+Caused by: java.lang.AssertionError: expected:<0> but was:<-3181>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 47 more
+14) test0288(RegressionTest0)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0288(RegressionTest0.java:6050)
+15) test0298(RegressionTest0)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest0.test0298(RegressionTest0.java:6236)
+16) test0305(RegressionTest0)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest0.test0305(RegressionTest0.java:6379)
+17) test0306(RegressionTest0)
+java.lang.AssertionError: '17' != '22'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0306(RegressionTest0.java:6416)
+18) test0310(RegressionTest0)
+java.lang.AssertionError: '31813200000' != '31795200000'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0310(RegressionTest0.java:6500)
+19) test0314(RegressionTest0)
+java.lang.AssertionError: '12' != '1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0314(RegressionTest0.java:6608)
+20) test0317(RegressionTest0)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0317(RegressionTest0.java:6693)
+21) test0326(RegressionTest0)
+java.lang.AssertionError: '-241200000' != '-259200000'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0326(RegressionTest0.java:6891)
+22) test0330(RegressionTest0)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0330(RegressionTest0.java:6983)
+23) test0347(RegressionTest0)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest0.test0347(RegressionTest0.java:7338)
+24) test0352(RegressionTest0)
+java.lang.AssertionError: '6' != '-1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0352(RegressionTest0.java:7537)
+25) test0358(RegressionTest0)
+java.lang.AssertionError: '1743548400001' != '1743465600001'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0358(RegressionTest0.java:7703)
+26) test0359(RegressionTest0)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest0.test0359(RegressionTest0.java:7729)
+27) test0366(RegressionTest0)
+java.lang.AssertionError: '18000010' != '10'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0366(RegressionTest0.java:7921)
+28) test0372(RegressionTest0)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0372(RegressionTest0.java:8299)
+29) test0376(RegressionTest0)
+java.lang.AssertionError: '6' != '-1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0376(RegressionTest0.java:8428)
+30) test0377(RegressionTest0)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest0.test0377(RegressionTest0.java:8525)
+31) test0378(RegressionTest0)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest0.test0378(RegressionTest0.java:8616)
+32) test0382(RegressionTest0)
+arrays first differed at element [2]; expected:<0> but was:<-3181>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest0.test0382(RegressionTest0.java:8740)
+	... 41 trimmed
+Caused by: java.lang.AssertionError: expected:<0> but was:<-3181>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 47 more
+33) test0385(RegressionTest0)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0385(RegressionTest0.java:8821)
+34) test0389(RegressionTest0)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest0.test0389(RegressionTest0.java:8983)
+35) test0398(RegressionTest0)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0398(RegressionTest0.java:9321)
+36) test0401(RegressionTest0)
+org.junit.ComparisonFailure: '2025-04-01T00:00:00.000-04:00' != '2025-04-01T00:00:00.000Z' expected:<...5-04-01T00:00:00.000[-04:00]> but was:<...5-04-01T00:00:00.000[Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0401(RegressionTest0.java:9375)
+37) test0406(RegressionTest0)
+java.lang.AssertionError: '18000026' != '26'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0406(RegressionTest0.java:9611)
+38) test0409(RegressionTest0)
+java.lang.AssertionError: '-1' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0409(RegressionTest0.java:9698)
+39) test0413(RegressionTest0)
+java.lang.AssertionError: '-1' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0413(RegressionTest0.java:9758)
+40) test0418(RegressionTest0)
+java.lang.AssertionError: '18000010' != '10'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0418(RegressionTest0.java:9908)
+41) test0425(RegressionTest0)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0425(RegressionTest0.java:10077)
+42) test0427(RegressionTest0)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0427(RegressionTest0.java:10143)
+43) test0428(RegressionTest0)
+java.lang.AssertionError: '19' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0428(RegressionTest0.java:10176)
+44) test0437(RegressionTest0)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0437(RegressionTest0.java:10395)
+45) test0441(RegressionTest0)
+org.junit.ComparisonFailure: '19:01:37.035' != '00:01:37.035' expected:<[19]:01:37.035> but was:<[00]:01:37.035>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0441(RegressionTest0.java:10534)
+46) test0467(RegressionTest0)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0467(RegressionTest0.java:11327)
+47) test0471(RegressionTest0)
+java.lang.IllegalArgumentException: Range duration field must be precise
+	at org.joda.time.field.PreciseDateTimeField.<init>(PreciseDateTimeField.java:61)
+	at RegressionTest0.test0471(RegressionTest0.java:11565)
+48) test0472(RegressionTest0)
+java.lang.AssertionError: '-1' != '1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0472(RegressionTest0.java:11615)
+49) test0478(RegressionTest0)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0478(RegressionTest0.java:11772)
+50) test0497(RegressionTest0)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest0.test0497(RegressionTest0.java:12351)
+51) test0505(RegressionTest1)
+java.lang.IllegalArgumentException: Range duration field must be precise
+	at org.joda.time.field.PreciseDateTimeField.<init>(PreciseDateTimeField.java:61)
+	at RegressionTest1.test0505(RegressionTest1.java:271)
+52) test0507(RegressionTest1)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0507(RegressionTest1.java:379)
+53) test0509(RegressionTest1)
+java.lang.AssertionError: '30' != '31'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0509(RegressionTest1.java:425)
+54) test0538(RegressionTest1)
+java.lang.AssertionError: '20180' != '20179'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0538(RegressionTest1.java:1447)
+55) test0542(RegressionTest1)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0542(RegressionTest1.java:1524)
+56) test0543(RegressionTest1)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0543(RegressionTest1.java:1576)
+57) test0555(RegressionTest1)
+org.junit.ComparisonFailure: expected:<[Eastern Standard] Time> but was:<[Coordinated Universal] Time>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0555(RegressionTest1.java:2044)
+58) test0565(RegressionTest1)
+java.lang.AssertionError: '-2591999999' != '1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0565(RegressionTest1.java:2473)
+59) test0575(RegressionTest1)
+java.lang.AssertionError: '21' != '19'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0575(RegressionTest1.java:2679)
+60) test0582(RegressionTest1)
+java.lang.IllegalArgumentException: Range duration field must be precise
+	at org.joda.time.field.PreciseDateTimeField.<init>(PreciseDateTimeField.java:61)
+	at RegressionTest1.test0582(RegressionTest1.java:2824)
+61) test0584(RegressionTest1)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0584(RegressionTest1.java:2875)
+62) test0590(RegressionTest1)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0590(RegressionTest1.java:3121)
+63) test0593(RegressionTest1)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0593(RegressionTest1.java:3192)
+64) test0598(RegressionTest1)
+org.junit.ComparisonFailure: expected:<[Sat Dec 31 19:00:00 EST 1960]> but was:<[Thu Dec 31 19:00:00 EST 1959]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0598(RegressionTest1.java:3385)
+65) test0601(RegressionTest1)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0601(RegressionTest1.java:3460)
+66) test0605(RegressionTest1)
+java.lang.AssertionError: '6' != '-1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0605(RegressionTest1.java:3611)
+67) test0607(RegressionTest1)
+org.junit.ComparisonFailure: expected:<[Eastern Standard] Time> but was:<[Coordinated Universal] Time>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0607(RegressionTest1.java:3740)
+68) test0624(RegressionTest1)
+java.lang.AssertionError: '-20275' != '-20274'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0624(RegressionTest1.java:4344)
+69) test0625(RegressionTest1)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0625(RegressionTest1.java:4437)
+70) test0627(RegressionTest1)
+java.lang.AssertionError: '20180' != '20179'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0627(RegressionTest1.java:4481)
+71) test0631(RegressionTest1)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0631(RegressionTest1.java:4602)
+72) test0633(RegressionTest1)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0633(RegressionTest1.java:4702)
+73) test0640(RegressionTest1)
+java.lang.AssertionError: '-18000000' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0640(RegressionTest1.java:4880)
+74) test0641(RegressionTest1)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0641(RegressionTest1.java:5012)
+75) test0645(RegressionTest1)
+org.junit.ComparisonFailure: '19:01:37.035' != '00:01:37.035' expected:<[19]:01:37.035> but was:<[00]:01:37.035>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0645(RegressionTest1.java:5132)
+76) test0647(RegressionTest1)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0647(RegressionTest1.java:5192)
+77) test0648(RegressionTest1)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0648(RegressionTest1.java:5229)
+78) test0664(RegressionTest1)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0664(RegressionTest1.java:5724)
+79) test0668(RegressionTest1)
+org.junit.ComparisonFailure: expected:<Wed Dec 31 [00]:00:00 EST 1969> but was:<Wed Dec 31 [19]:00:00 EST 1969>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0668(RegressionTest1.java:5927)
+80) test0673(RegressionTest1)
+java.lang.AssertionError: '18000000' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0673(RegressionTest1.java:6048)
+81) test0677(RegressionTest1)
+org.junit.ComparisonFailure: '365' != '1' expected:<[365]> but was:<[1]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0677(RegressionTest1.java:6124)
+82) test0681(RegressionTest1)
+java.lang.AssertionError: '1' != '3'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0681(RegressionTest1.java:6223)
+83) test0691(RegressionTest1)
+java.lang.AssertionError: '1969' != '1970'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0691(RegressionTest1.java:6746)
+84) test0693(RegressionTest1)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0693(RegressionTest1.java:6833)
+85) test0696(RegressionTest1)
+java.lang.AssertionError: '3' != '4'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0696(RegressionTest1.java:6938)
+86) test0698(RegressionTest1)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0698(RegressionTest1.java:7072)
+87) test0705(RegressionTest1)
+org.junit.ComparisonFailure: '5:59:59 o'clock PM ' != '10:59:59 o'clock PM ' expected:<[5]:59:59 o'clock PM > but was:<[10]:59:59 o'clock PM >
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0705(RegressionTest1.java:7332)
+88) test0711(RegressionTest1)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0711(RegressionTest1.java:7536)
+89) test0713(RegressionTest1)
+org.junit.ComparisonFailure: 'JulianChronology[America/Toronto]' != 'JulianChronology[UTC]' expected:<JulianChronology[[America/Toronto]]> but was:<JulianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0713(RegressionTest1.java:7617)
+90) test0715(RegressionTest1)
+arrays first differed at element [2]; expected:<18> but was:<19>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest1.test0715(RegressionTest1.java:7735)
+	... 41 trimmed
+Caused by: java.lang.AssertionError: expected:<18> but was:<19>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 47 more
+91) test0718(RegressionTest1)
+java.lang.AssertionError: '68400100' != '100'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0718(RegressionTest1.java:7837)
+92) test0719(RegressionTest1)
+java.lang.AssertionError: '6' != '-1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0719(RegressionTest1.java:7876)
+93) test0720(RegressionTest1)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0720(RegressionTest1.java:7914)
+94) test0722(RegressionTest1)
+java.lang.AssertionError: '3' != '4'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0722(RegressionTest1.java:8051)
+95) test0731(RegressionTest1)
+java.lang.AssertionError: '18000000' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0731(RegressionTest1.java:8371)
+96) test0744(RegressionTest1)
+org.junit.ComparisonFailure: expected:<[Eastern Standard] Time> but was:<[Coordinated Universal] Time>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0744(RegressionTest1.java:8719)
+97) test0747(RegressionTest1)
+java.lang.AssertionError: '18000026' != '26'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0747(RegressionTest1.java:8813)
+98) test0752(RegressionTest1)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0752(RegressionTest1.java:9010)
+99) test0757(RegressionTest1)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0757(RegressionTest1.java:9197)
+100) test0758(RegressionTest1)
+java.lang.AssertionError: '18' != '23'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0758(RegressionTest1.java:9248)
+101) test0759(RegressionTest1)
+org.junit.ComparisonFailure: '-1' != '4' expected:<[-1]> but was:<[4]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0759(RegressionTest1.java:9369)
+102) test0762(RegressionTest1)
+java.lang.AssertionError: '69' != '70'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0762(RegressionTest1.java:9487)
+103) test0765(RegressionTest1)
+java.lang.AssertionError: '69' != '70'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0765(RegressionTest1.java:9581)
+104) test0766(RegressionTest1)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0766(RegressionTest1.java:9654)
+105) test0767(RegressionTest1)
+java.lang.AssertionError: '3' != '4'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0767(RegressionTest1.java:9678)
+106) test0771(RegressionTest1)
+org.junit.ComparisonFailure: '-1' != '4' expected:<[-1]> but was:<[4]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0771(RegressionTest1.java:9823)
+107) test0773(RegressionTest1)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0773(RegressionTest1.java:9920)
+108) test0777(RegressionTest1)
+java.lang.AssertionError: '3' != '4'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0777(RegressionTest1.java:10079)
+109) test0782(RegressionTest1)
+org.junit.ComparisonFailure: '365' != '1' expected:<[365]> but was:<[1]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0782(RegressionTest1.java:10254)
+110) test0787(RegressionTest1)
+java.lang.AssertionError: '3' != '4'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0787(RegressionTest1.java:10394)
+111) test0793(RegressionTest1)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0793(RegressionTest1.java:10689)
+112) test0798(RegressionTest1)
+java.lang.AssertionError: '1969' != '1970'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0798(RegressionTest1.java:10918)
+113) test0802(RegressionTest1)
+java.lang.AssertionError: '19' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0802(RegressionTest1.java:11113)
+114) test0808(RegressionTest1)
+java.lang.IllegalArgumentException: Range duration field must be precise
+	at org.joda.time.field.PreciseDateTimeField.<init>(PreciseDateTimeField.java:61)
+	at RegressionTest1.test0808(RegressionTest1.java:11274)
+115) test0809(RegressionTest1)
+java.lang.AssertionError: '20' != '1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0809(RegressionTest1.java:11317)
+116) test0812(RegressionTest1)
+org.junit.ComparisonFailure: 'T19:00:00.000' != 'T00:00:00.000' expected:<T[19]:00:00.000> but was:<T[00]:00:00.000>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0812(RegressionTest1.java:11412)
+117) test0815(RegressionTest1)
+org.junit.ComparisonFailure: '1969-12-31T19:00:01.970-05:00/2025-04-01T15:28:44.466-04:00' != '1970-01-01T00:00:01.970Z/2025-04-01T19:28:44.466Z' expected:<19[69-12-31T19:00:01.970-05:00/2025-04-01T15:28:44.466-04:00]> but was:<19[70-01-01T00:00:01.970Z/2025-04-01T19:28:44.466Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0815(RegressionTest1.java:11463)
+118) test0817(RegressionTest1)
+org.junit.ComparisonFailure: 'EST' != 'UTC' expected:<[EST]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0817(RegressionTest1.java:11521)
+119) test0830(RegressionTest1)
+java.lang.AssertionError: '365' != '1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0830(RegressionTest1.java:11966)
+120) test0834(RegressionTest1)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0834(RegressionTest1.java:12062)
+121) test0838(RegressionTest1)
+java.lang.AssertionError: '-61962172947997' != '-61962191999997'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0838(RegressionTest1.java:12179)
+122) test0839(RegressionTest1)
+java.lang.AssertionError: '0' != '1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0839(RegressionTest1.java:12210)
+123) test0845(RegressionTest1)
+org.junit.ComparisonFailure: 'StrictChronology[JulianChronology[America/Toronto]]' != 'StrictChronology[JulianChronology[UTC]]' expected:<...gy[JulianChronology[[America/Toronto]]]> but was:<...gy[JulianChronology[[UTC]]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0845(RegressionTest1.java:12356)
+124) test0850(RegressionTest1)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0850(RegressionTest1.java:12524)
+125) test0868(RegressionTest1)
+java.lang.AssertionError: '69' != '70'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0868(RegressionTest1.java:12905)
+126) test0873(RegressionTest1)
+arrays first differed at element [2]; expected:<0> but was:<-3181>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest1.test0873(RegressionTest1.java:13037)
+	... 41 trimmed
+Caused by: java.lang.AssertionError: expected:<0> but was:<-3181>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 47 more
+127) test0874(RegressionTest1)
+java.lang.AssertionError: '-61567670548000' != '-61567689600000'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0874(RegressionTest1.java:13091)
+128) test0876(RegressionTest1)
+arrays first differed at element [0]; expected:<12> but was:<1>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest1.test0876(RegressionTest1.java:13145)
+	... 41 trimmed
+Caused by: java.lang.AssertionError: expected:<12> but was:<1>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 47 more
+129) test0880(RegressionTest1)
+org.junit.ComparisonFailure: '1969-12-18T19:00:00.007-05:00/1969-12-18T19:00:00.097-05:00' != '1969-12-19T00:00:00.007Z/1969-12-19T00:00:00.097Z' expected:<1969-12-1[8T19:00:00.007-05:00/1969-12-18T19:00:00.097-05:00]> but was:<1969-12-1[9T00:00:00.007Z/1969-12-19T00:00:00.097Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0880(RegressionTest1.java:13294)
+130) test0881(RegressionTest1)
+org.junit.ComparisonFailure: expected:<[Eastern Standard] Time> but was:<[Coordinated Universal] Time>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0881(RegressionTest1.java:13375)
+131) test0883(RegressionTest1)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0883(RegressionTest1.java:13454)
+132) test0885(RegressionTest1)
+org.junit.ComparisonFailure: expected:<Wed Dec 31 [00]:00:00 EST 1969> but was:<Wed Dec 31 [19]:00:00 EST 1969>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0885(RegressionTest1.java:13539)
+133) test0890(RegressionTest1)
+java.lang.AssertionError: '6' != '-1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0890(RegressionTest1.java:13780)
+134) test0891(RegressionTest1)
+java.lang.AssertionError: '3' != '4'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0891(RegressionTest1.java:13804)
+135) test0898(RegressionTest1)
+java.lang.AssertionError: '31' != '1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0898(RegressionTest1.java:14034)
+136) test0906(RegressionTest1)
+java.lang.AssertionError: '3' != '4'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0906(RegressionTest1.java:14222)
+137) test0907(RegressionTest1)
+org.junit.ComparisonFailure: expected:<Wed Dec 31 [00]:00:00 EST 1969> but was:<Wed Dec 31 [19]:00:00 EST 1969>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0907(RegressionTest1.java:14275)
+138) test0914(RegressionTest1)
+org.junit.ComparisonFailure: '19:59:35.035' != '00:59:35.035' expected:<[19]:59:35.035> but was:<[00]:59:35.035>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0914(RegressionTest1.java:14461)
+139) test0915(RegressionTest1)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0915(RegressionTest1.java:14475)
+140) test0916(RegressionTest1)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0916(RegressionTest1.java:14530)
+141) test0918(RegressionTest1)
+java.lang.AssertionError: '-1' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0918(RegressionTest1.java:14606)
+142) test0924(RegressionTest1)
+java.lang.AssertionError: '-25200000' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0924(RegressionTest1.java:14814)
+143) test0925(RegressionTest1)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0925(RegressionTest1.java:14853)
+144) test0927(RegressionTest1)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0927(RegressionTest1.java:14931)
+145) test0930(RegressionTest1)
+arrays first differed at element [2]; expected:<18> but was:<19>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest1.test0930(RegressionTest1.java:15053)
+	... 41 trimmed
+Caused by: java.lang.AssertionError: expected:<18> but was:<19>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 47 more
+146) test0938(RegressionTest1)
+java.lang.AssertionError: '43200' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0938(RegressionTest1.java:15309)
+147) test0944(RegressionTest1)
+java.lang.AssertionError: '1969' != '1970'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0944(RegressionTest1.java:15462)
+148) test0945(RegressionTest1)
+org.junit.ComparisonFailure: '365' != '1' expected:<[365]> but was:<[1]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0945(RegressionTest1.java:15480)
+149) test0953(RegressionTest1)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0953(RegressionTest1.java:15690)
+150) test0954(RegressionTest1)
+org.junit.ComparisonFailure: '1969-12-31' != '1970-01-01' expected:<19[69-12-3]1> but was:<19[70-01-0]1>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0954(RegressionTest1.java:15708)
+151) test0957(RegressionTest1)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0957(RegressionTest1.java:15928)
+152) test0966(RegressionTest1)
+java.lang.AssertionError: '69' != '70'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0966(RegressionTest1.java:16215)
+153) test0971(RegressionTest1)
+java.lang.AssertionError: '-241200000' != '-259200000'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0971(RegressionTest1.java:16381)
+154) test0973(RegressionTest1)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0973(RegressionTest1.java:16438)
+155) test0977(RegressionTest1)
+java.lang.AssertionError: '365' != '1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0977(RegressionTest1.java:16536)
+156) test0978(RegressionTest1)
+java.lang.AssertionError: '68400100' != '100'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0978(RegressionTest1.java:16551)
+157) test0980(RegressionTest1)
+java.lang.AssertionError: '-18000000' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0980(RegressionTest1.java:16583)
+158) test0993(RegressionTest1)
+org.junit.ComparisonFailure: expected:<Wed Dec 31 [00]:00:00 EST 1969> but was:<Wed Dec 31 [19]:00:00 EST 1969>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0993(RegressionTest1.java:16939)
+159) test0998(RegressionTest1)
+java.lang.AssertionError: '69' != '70'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0998(RegressionTest1.java:17034)
+160) test1001(RegressionTest2)
+java.lang.IllegalArgumentException: Range duration field must be precise
+	at org.joda.time.field.PreciseDateTimeField.<init>(PreciseDateTimeField.java:61)
+	at RegressionTest2.test1001(RegressionTest2.java:47)
+161) test1006(RegressionTest2)
+org.junit.ComparisonFailure: 'T18:59:28.001' != 'T23:59:28.001' expected:<T[18]:59:28.001> but was:<T[23]:59:28.001>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1006(RegressionTest2.java:167)
+162) test1034(RegressionTest2)
+java.lang.AssertionError: '9961200000' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1034(RegressionTest2.java:1027)
+163) test1061(RegressionTest2)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1061(RegressionTest2.java:1576)
+164) test1064(RegressionTest2)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1064(RegressionTest2.java:1679)
+165) test1065(RegressionTest2)
+java.lang.AssertionError: '68400' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1065(RegressionTest2.java:1706)
+166) test1066(RegressionTest2)
+arrays first differed at element [2]; expected:<18> but was:<19>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest2.test1066(RegressionTest2.java:1753)
+	... 41 trimmed
+Caused by: java.lang.AssertionError: expected:<18> but was:<19>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 47 more
+167) test1074(RegressionTest2)
+java.lang.AssertionError: '4544201087999965' != '4544201174399965'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1074(RegressionTest2.java:2048)
+168) test1081(RegressionTest2)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1081(RegressionTest2.java:2374)
+169) test1089(RegressionTest2)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1089(RegressionTest2.java:2571)
+170) test1090(RegressionTest2)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1090(RegressionTest2.java:2696)
+171) test1093(RegressionTest2)
+org.junit.ComparisonFailure: 'Eastern Standard Time' != 'Coordinated Universal Time' expected:<[Eastern Standard] Time> but was:<[Coordinated Universal] Time>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1093(RegressionTest2.java:2764)
+172) test1095(RegressionTest2)
+java.lang.AssertionError: '-18000000' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1095(RegressionTest2.java:2812)
+173) test1112(RegressionTest2)
+org.junit.ComparisonFailure: 'Eastern Standard Time' != 'Coordinated Universal Time' expected:<[Eastern Standard] Time> but was:<[Coordinated Universal] Time>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1112(RegressionTest2.java:3230)
+174) test1119(RegressionTest2)
+java.lang.AssertionError: '19' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1119(RegressionTest2.java:3443)
+175) test1120(RegressionTest2)
+org.junit.ComparisonFailure: 'Eastern Standard Time' != 'Coordinated Universal Time' expected:<[Eastern Standard] Time> but was:<[Coordinated Universal] Time>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1120(RegressionTest2.java:3486)
+176) test1122(RegressionTest2)
+java.lang.AssertionError: '1736382564229' != '1736364564229'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1122(RegressionTest2.java:3539)
+177) test1123(RegressionTest2)
+org.junit.ComparisonFailure: 'Eastern Standard Time' != 'Coordinated Universal Time' expected:<[Eastern Standard] Time> but was:<[Coordinated Universal] Time>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1123(RegressionTest2.java:3586)
+178) test1124(RegressionTest2)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1124(RegressionTest2.java:3623)
+179) test1140(RegressionTest2)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1140(RegressionTest2.java:4276)
+180) test1141(RegressionTest2)
+org.junit.ComparisonFailure: expected:<[Sat Dec 31 19:00:00 EST 1960]> but was:<[Thu Dec 31 19:00:00 EST 1959]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest2.test1141(RegressionTest2.java:4297)
+181) test1142(RegressionTest2)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1142(RegressionTest2.java:4339)
+182) test1145(RegressionTest2)
+arrays first differed at element [2]; expected:<0> but was:<-3181>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest2.test1145(RegressionTest2.java:4556)
+	... 41 trimmed
+Caused by: java.lang.AssertionError: expected:<0> but was:<-3181>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 47 more
+183) test1147(RegressionTest2)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1147(RegressionTest2.java:4731)
+184) test1167(RegressionTest2)
+java.lang.AssertionError: '19' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1167(RegressionTest2.java:5316)
+185) test1187(RegressionTest2)
+arrays first differed at element [2]; expected:<0> but was:<-3181>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest2.test1187(RegressionTest2.java:5890)
+	... 41 trimmed
+Caused by: java.lang.AssertionError: expected:<0> but was:<-3181>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 47 more
+186) test1190(RegressionTest2)
+java.lang.AssertionError: '3' != '4'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1190(RegressionTest2.java:5942)
+187) test1199(RegressionTest2)
+java.lang.AssertionError: '9961200000' != '32'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1199(RegressionTest2.java:6200)
+188) test1200(RegressionTest2)
+java.lang.IllegalArgumentException: Range duration field must be precise
+	at org.joda.time.field.PreciseDateTimeField.<init>(PreciseDateTimeField.java:61)
+	at RegressionTest2.test1200(RegressionTest2.java:6234)
+189) test1203(RegressionTest2)
+java.lang.AssertionError: '1969' != '1970'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1203(RegressionTest2.java:6324)
+190) test1207(RegressionTest2)
+org.junit.ComparisonFailure: '1932W133' != '1932W134' expected:<1932W13[3]> but was:<1932W13[4]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1207(RegressionTest2.java:6433)
+191) test1208(RegressionTest2)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1208(RegressionTest2.java:6456)
+192) test1215(RegressionTest2)
+arrays first differed at element [2]; expected:<0> but was:<-3181>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest2.test1215(RegressionTest2.java:6657)
+	... 41 trimmed
+Caused by: java.lang.AssertionError: expected:<0> but was:<-3181>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 47 more
+193) test1217(RegressionTest2)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1217(RegressionTest2.java:6786)
+194) test1224(RegressionTest2)
+java.lang.AssertionError: '18000026' != '26'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1224(RegressionTest2.java:6939)
+195) test1233(RegressionTest2)
+java.lang.AssertionError: '-25200000' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1233(RegressionTest2.java:7322)
+196) test1238(RegressionTest2)
+java.lang.AssertionError: '-18000000' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1238(RegressionTest2.java:7476)
+197) test1240(RegressionTest2)
+java.lang.AssertionError: '19' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1240(RegressionTest2.java:7517)
+198) test1246(RegressionTest2)
+arrays first differed at element [2]; expected:<18> but was:<19>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest2.test1246(RegressionTest2.java:7622)
+	... 41 trimmed
+Caused by: java.lang.AssertionError: expected:<18> but was:<19>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 47 more
+199) test1247(RegressionTest2)
+java.lang.AssertionError: '64799999' != '82799999'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1247(RegressionTest2.java:7653)
+200) test1249(RegressionTest2)
+java.lang.AssertionError: '241200060' != '259200060'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1249(RegressionTest2.java:7704)
+201) test1257(RegressionTest2)
+java.lang.IllegalArgumentException: Range duration field must be precise
+	at org.joda.time.field.PreciseDateTimeField.<init>(PreciseDateTimeField.java:61)
+	at RegressionTest2.test1257(RegressionTest2.java:8008)
+202) test1274(RegressionTest2)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1274(RegressionTest2.java:8552)
+203) test1275(RegressionTest2)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1275(RegressionTest2.java:8594)
+204) test1277(RegressionTest2)
+java.lang.AssertionError: '18000026' != '26'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1277(RegressionTest2.java:8719)
+205) test1297(RegressionTest2)
+arrays first differed at element [2]; expected:<0> but was:<-3181>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest2.test1297(RegressionTest2.java:9524)
+	... 41 trimmed
+Caused by: java.lang.AssertionError: expected:<0> but was:<-3181>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 47 more
+206) test1303(RegressionTest2)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1303(RegressionTest2.java:9729)
+207) test1304(RegressionTest2)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1304(RegressionTest2.java:9781)
+208) test1307(RegressionTest2)
+arrays first differed at element [0]; expected:<12> but was:<1>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest2.test1307(RegressionTest2.java:9877)
+	... 41 trimmed
+Caused by: java.lang.AssertionError: expected:<12> but was:<1>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 47 more
+209) test1310(RegressionTest2)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1310(RegressionTest2.java:10004)
+210) test1321(RegressionTest2)
+java.lang.AssertionError: '19' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1321(RegressionTest2.java:10278)
+211) test1333(RegressionTest2)
+java.lang.AssertionError: '31' != '1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1333(RegressionTest2.java:10739)
+212) test1340(RegressionTest2)
+java.lang.AssertionError: '18000000' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1340(RegressionTest2.java:10896)
+213) test1348(RegressionTest2)
+java.lang.AssertionError: '-61565683347975' != '-61565702399975'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1348(RegressionTest2.java:11106)
+214) test1353(RegressionTest2)
+java.lang.AssertionError: '-1' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1353(RegressionTest2.java:11286)
+215) test1354(RegressionTest2)
+java.lang.AssertionError: '1969' != '1970'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1354(RegressionTest2.java:11309)
+216) test1356(RegressionTest2)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1356(RegressionTest2.java:11378)
+217) test1365(RegressionTest2)
+org.junit.ComparisonFailure: 'Eastern Standard Time' != 'Coordinated Universal Time' expected:<[Eastern Standard] Time> but was:<[Coordinated Universal] Time>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1365(RegressionTest2.java:11745)
+218) test1366(RegressionTest2)
+java.lang.AssertionError: '68400100' != '100'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1366(RegressionTest2.java:11778)
+219) test1374(RegressionTest2)
+org.junit.ComparisonFailure: 'T18:59:28.001' != 'T23:59:28.001' expected:<T[18]:59:28.001> but was:<T[23]:59:28.001>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1374(RegressionTest2.java:11971)
+220) test1376(RegressionTest2)
+java.lang.AssertionError: '6' != '-1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1376(RegressionTest2.java:12029)
+221) test1398(RegressionTest2)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1398(RegressionTest2.java:12719)
+222) test1406(RegressionTest2)
+java.lang.AssertionError: '-18000000' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1406(RegressionTest2.java:12922)
+223) test1409(RegressionTest2)
+org.junit.ComparisonFailure: 'JulianChronology[America/Toronto]' != 'JulianChronology[UTC]' expected:<JulianChronology[[America/Toronto]]> but was:<JulianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1409(RegressionTest2.java:13016)
+224) test1413(RegressionTest2)
+java.lang.AssertionError: '18000026' != '26'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1413(RegressionTest2.java:13270)
+225) test1415(RegressionTest2)
+java.lang.AssertionError: '18000000' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1415(RegressionTest2.java:13385)
+226) test1417(RegressionTest2)
+org.junit.ComparisonFailure: 'Eastern Standard Time' != 'Coordinated Universal Time' expected:<[Eastern Standard] Time> but was:<[Coordinated Universal] Time>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1417(RegressionTest2.java:13493)
+227) test1418(RegressionTest2)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1418(RegressionTest2.java:13589)
+228) test1421(RegressionTest2)
+arrays first differed at element [2]; expected:<0> but was:<-3181>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest2.test1421(RegressionTest2.java:13646)
+	... 41 trimmed
+Caused by: java.lang.AssertionError: expected:<0> but was:<-3181>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 47 more
+229) test1423(RegressionTest2)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1423(RegressionTest2.java:13692)
+230) test1428(RegressionTest2)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1428(RegressionTest2.java:13965)
+
+FAILURES!!!
+Tests run: 1428,  Failures: 230
+
+JUnit version 4.13.2
+..........................................................................E............................................E.........................E....E..........................E...................E..........................E......E...................E........E........E.......E................E......E..........E.......E.E....E....E...E.........E....E.................E.....E......E.E.......E......E....E.E.E....E...E....E.........E...E.....E...E....E.....E.......E..E.E.........E....E..........................E....E.E......E...................E...
+Time: 0.296
+There were 50 failures:
+1) test0074(RegressionTest0)
+java.lang.AssertionError: '30' != '31'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0074(RegressionTest0.java:1241)
+2) test0118(RegressionTest0)
+org.junit.ComparisonFailure: '1969-12-18T19:00:00.007-05:00/1969-12-18T19:00:00.097-05:00' != '1969-12-19T00:00:00.007Z/1969-12-19T00:00:00.097Z' expected:<1969-12-1[8T19:00:00.007-05:00/1969-12-18T19:00:00.097-05:00]> but was:<1969-12-1[9T00:00:00.007Z/1969-12-19T00:00:00.097Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0118(RegressionTest0.java:2239)
+3) test0143(RegressionTest0)
+org.junit.ComparisonFailure: '7' != '0' expected:<[7]> but was:<[0]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0143(RegressionTest0.java:2780)
+4) test0147(RegressionTest0)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest0.test0147(RegressionTest0.java:2847)
+5) test0173(RegressionTest0)
+org.junit.ComparisonFailure: '2025-04-01T00:00:00.000-04:00' != '2025-04-01T00:00:00.000Z' expected:<...5-04-01T00:00:00.000[-04:00]> but was:<...5-04-01T00:00:00.000[Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0173(RegressionTest0.java:3304)
+6) test0192(RegressionTest0)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest0.test0192(RegressionTest0.java:3874)
+7) test0218(RegressionTest0)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0218(RegressionTest0.java:4393)
+8) test0224(RegressionTest0)
+java.lang.AssertionError: '-1' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0224(RegressionTest0.java:4514)
+9) test0243(RegressionTest0)
+org.junit.ComparisonFailure: 'Wednesday' != 'Thursday' expected:<[Wedne]sday> but was:<[Thur]sday>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0243(RegressionTest0.java:4926)
+10) test0251(RegressionTest0)
+java.lang.AssertionError: '6' != '-1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0251(RegressionTest0.java:5230)
+11) test0259(RegressionTest0)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0259(RegressionTest0.java:5456)
+12) test0266(RegressionTest0)
+org.junit.ComparisonFailure: 'Eastern Standard Time' != 'Coordinated Universal Time' expected:<[Eastern Standard] Time> but was:<[Coordinated Universal] Time>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0266(RegressionTest0.java:5648)
+13) test0282(RegressionTest0)
+arrays first differed at element [2]; expected:<0> but was:<-3181>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest0.test0282(RegressionTest0.java:5956)
+	... 32 trimmed
+Caused by: java.lang.AssertionError: expected:<0> but was:<-3181>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 38 more
+14) test0288(RegressionTest0)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0288(RegressionTest0.java:6050)
+15) test0298(RegressionTest0)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest0.test0298(RegressionTest0.java:6236)
+16) test0305(RegressionTest0)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest0.test0305(RegressionTest0.java:6379)
+17) test0306(RegressionTest0)
+java.lang.AssertionError: '17' != '22'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0306(RegressionTest0.java:6416)
+18) test0310(RegressionTest0)
+java.lang.AssertionError: '31813200000' != '31795200000'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0310(RegressionTest0.java:6500)
+19) test0314(RegressionTest0)
+java.lang.AssertionError: '12' != '1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0314(RegressionTest0.java:6608)
+20) test0317(RegressionTest0)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0317(RegressionTest0.java:6693)
+21) test0326(RegressionTest0)
+java.lang.AssertionError: '-241200000' != '-259200000'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0326(RegressionTest0.java:6891)
+22) test0330(RegressionTest0)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0330(RegressionTest0.java:6983)
+23) test0347(RegressionTest0)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest0.test0347(RegressionTest0.java:7338)
+24) test0352(RegressionTest0)
+java.lang.AssertionError: '6' != '-1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0352(RegressionTest0.java:7537)
+25) test0358(RegressionTest0)
+java.lang.AssertionError: '1743548400001' != '1743465600001'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0358(RegressionTest0.java:7703)
+26) test0359(RegressionTest0)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest0.test0359(RegressionTest0.java:7729)
+27) test0366(RegressionTest0)
+java.lang.AssertionError: '18000010' != '10'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0366(RegressionTest0.java:7921)
+28) test0372(RegressionTest0)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0372(RegressionTest0.java:8299)
+29) test0376(RegressionTest0)
+java.lang.AssertionError: '6' != '-1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0376(RegressionTest0.java:8428)
+30) test0377(RegressionTest0)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest0.test0377(RegressionTest0.java:8525)
+31) test0378(RegressionTest0)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest0.test0378(RegressionTest0.java:8616)
+32) test0382(RegressionTest0)
+arrays first differed at element [2]; expected:<0> but was:<-3181>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest0.test0382(RegressionTest0.java:8740)
+	... 32 trimmed
+Caused by: java.lang.AssertionError: expected:<0> but was:<-3181>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 38 more
+33) test0385(RegressionTest0)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0385(RegressionTest0.java:8821)
+34) test0389(RegressionTest0)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest0.test0389(RegressionTest0.java:8983)
+35) test0398(RegressionTest0)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0398(RegressionTest0.java:9321)
+36) test0401(RegressionTest0)
+org.junit.ComparisonFailure: '2025-04-01T00:00:00.000-04:00' != '2025-04-01T00:00:00.000Z' expected:<...5-04-01T00:00:00.000[-04:00]> but was:<...5-04-01T00:00:00.000[Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0401(RegressionTest0.java:9375)
+37) test0406(RegressionTest0)
+java.lang.AssertionError: '18000026' != '26'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0406(RegressionTest0.java:9611)
+38) test0409(RegressionTest0)
+java.lang.AssertionError: '-1' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0409(RegressionTest0.java:9698)
+39) test0413(RegressionTest0)
+java.lang.AssertionError: '-1' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0413(RegressionTest0.java:9758)
+40) test0418(RegressionTest0)
+java.lang.AssertionError: '18000010' != '10'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0418(RegressionTest0.java:9908)
+41) test0425(RegressionTest0)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0425(RegressionTest0.java:10077)
+42) test0427(RegressionTest0)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0427(RegressionTest0.java:10143)
+43) test0428(RegressionTest0)
+java.lang.AssertionError: '19' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0428(RegressionTest0.java:10176)
+44) test0437(RegressionTest0)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0437(RegressionTest0.java:10395)
+45) test0441(RegressionTest0)
+org.junit.ComparisonFailure: '19:01:37.035' != '00:01:37.035' expected:<[19]:01:37.035> but was:<[00]:01:37.035>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0441(RegressionTest0.java:10534)
+46) test0467(RegressionTest0)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0467(RegressionTest0.java:11327)
+47) test0471(RegressionTest0)
+java.lang.IllegalArgumentException: Range duration field must be precise
+	at org.joda.time.field.PreciseDateTimeField.<init>(PreciseDateTimeField.java:61)
+	at RegressionTest0.test0471(RegressionTest0.java:11565)
+48) test0472(RegressionTest0)
+java.lang.AssertionError: '-1' != '1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest0.test0472(RegressionTest0.java:11615)
+49) test0478(RegressionTest0)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest0.test0478(RegressionTest0.java:11772)
+50) test0497(RegressionTest0)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest0.test0497(RegressionTest0.java:12351)
+
+FAILURES!!!
+Tests run: 500,  Failures: 50
+
+JUnit version 4.13.2
+.....E..E..E.............................E....E.E............E..........E..........E.......E..E......E...E.....E...E....E..E.................E.E..E....E..E.......E.E....E..E.E................E....E.....E....E....E..........E..E...E..E.......E......E..E..E...E.E.E..E.........E.............E...E.....E.....E.E.E...E...E.E.E....E..E....E.....E.....E......E.....E....E......E.E...E...E..E.............E....E....E.E......E.....E..................E.....E.E..E....E.E..E..E.....E.E.......E........E.E.......E.E.E..E......E.E..E...E........E......E.E........E.E...E.........E.....E..E....E.E..E.............E.....E..
+Time: 0.293
+There were 109 failures:
+1) test0505(RegressionTest1)
+java.lang.IllegalArgumentException: Range duration field must be precise
+	at org.joda.time.field.PreciseDateTimeField.<init>(PreciseDateTimeField.java:61)
+	at RegressionTest1.test0505(RegressionTest1.java:271)
+2) test0507(RegressionTest1)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0507(RegressionTest1.java:379)
+3) test0509(RegressionTest1)
+java.lang.AssertionError: '30' != '31'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0509(RegressionTest1.java:425)
+4) test0538(RegressionTest1)
+java.lang.AssertionError: '20180' != '20179'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0538(RegressionTest1.java:1447)
+5) test0542(RegressionTest1)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0542(RegressionTest1.java:1524)
+6) test0543(RegressionTest1)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0543(RegressionTest1.java:1576)
+7) test0555(RegressionTest1)
+org.junit.ComparisonFailure: expected:<[Eastern Standard] Time> but was:<[Coordinated Universal] Time>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0555(RegressionTest1.java:2044)
+8) test0565(RegressionTest1)
+java.lang.AssertionError: '-2591999999' != '1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0565(RegressionTest1.java:2473)
+9) test0575(RegressionTest1)
+java.lang.AssertionError: '21' != '19'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0575(RegressionTest1.java:2679)
+10) test0582(RegressionTest1)
+java.lang.IllegalArgumentException: Range duration field must be precise
+	at org.joda.time.field.PreciseDateTimeField.<init>(PreciseDateTimeField.java:61)
+	at RegressionTest1.test0582(RegressionTest1.java:2824)
+11) test0584(RegressionTest1)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0584(RegressionTest1.java:2875)
+12) test0590(RegressionTest1)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0590(RegressionTest1.java:3121)
+13) test0593(RegressionTest1)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0593(RegressionTest1.java:3192)
+14) test0598(RegressionTest1)
+org.junit.ComparisonFailure: expected:<[Sat Dec 31 19:00:00 EST 1960]> but was:<[Thu Dec 31 19:00:00 EST 1959]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0598(RegressionTest1.java:3385)
+15) test0601(RegressionTest1)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0601(RegressionTest1.java:3460)
+16) test0605(RegressionTest1)
+java.lang.AssertionError: '6' != '-1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0605(RegressionTest1.java:3611)
+17) test0607(RegressionTest1)
+org.junit.ComparisonFailure: expected:<[Eastern Standard] Time> but was:<[Coordinated Universal] Time>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0607(RegressionTest1.java:3740)
+18) test0624(RegressionTest1)
+java.lang.AssertionError: '-20275' != '-20274'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0624(RegressionTest1.java:4344)
+19) test0625(RegressionTest1)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0625(RegressionTest1.java:4437)
+20) test0627(RegressionTest1)
+java.lang.AssertionError: '20180' != '20179'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0627(RegressionTest1.java:4481)
+21) test0631(RegressionTest1)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0631(RegressionTest1.java:4602)
+22) test0633(RegressionTest1)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0633(RegressionTest1.java:4702)
+23) test0640(RegressionTest1)
+java.lang.AssertionError: '-18000000' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0640(RegressionTest1.java:4880)
+24) test0641(RegressionTest1)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0641(RegressionTest1.java:5012)
+25) test0645(RegressionTest1)
+org.junit.ComparisonFailure: '19:01:37.035' != '00:01:37.035' expected:<[19]:01:37.035> but was:<[00]:01:37.035>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0645(RegressionTest1.java:5132)
+26) test0647(RegressionTest1)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0647(RegressionTest1.java:5192)
+27) test0648(RegressionTest1)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0648(RegressionTest1.java:5229)
+28) test0664(RegressionTest1)
+org.junit.ComparisonFailure: expected:<[Tue Apr 01 0]0:00:00 EDT 2025> but was:<[Mon Mar 31 2]0:00:00 EDT 2025>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0664(RegressionTest1.java:5724)
+29) test0668(RegressionTest1)
+org.junit.ComparisonFailure: expected:<Wed Dec 31 [00]:00:00 EST 1969> but was:<Wed Dec 31 [19]:00:00 EST 1969>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0668(RegressionTest1.java:5927)
+30) test0673(RegressionTest1)
+java.lang.AssertionError: '18000000' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0673(RegressionTest1.java:6048)
+31) test0677(RegressionTest1)
+org.junit.ComparisonFailure: '365' != '1' expected:<[365]> but was:<[1]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0677(RegressionTest1.java:6124)
+32) test0681(RegressionTest1)
+java.lang.AssertionError: '1' != '3'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0681(RegressionTest1.java:6223)
+33) test0691(RegressionTest1)
+java.lang.AssertionError: '1969' != '1970'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0691(RegressionTest1.java:6746)
+34) test0693(RegressionTest1)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0693(RegressionTest1.java:6833)
+35) test0696(RegressionTest1)
+java.lang.AssertionError: '3' != '4'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0696(RegressionTest1.java:6938)
+36) test0698(RegressionTest1)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0698(RegressionTest1.java:7072)
+37) test0705(RegressionTest1)
+org.junit.ComparisonFailure: '5:59:59 o'clock PM ' != '10:59:59 o'clock PM ' expected:<[5]:59:59 o'clock PM > but was:<[10]:59:59 o'clock PM >
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0705(RegressionTest1.java:7332)
+38) test0711(RegressionTest1)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0711(RegressionTest1.java:7536)
+39) test0713(RegressionTest1)
+org.junit.ComparisonFailure: 'JulianChronology[America/Toronto]' != 'JulianChronology[UTC]' expected:<JulianChronology[[America/Toronto]]> but was:<JulianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0713(RegressionTest1.java:7617)
+40) test0715(RegressionTest1)
+arrays first differed at element [2]; expected:<18> but was:<19>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest1.test0715(RegressionTest1.java:7735)
+	... 32 trimmed
+Caused by: java.lang.AssertionError: expected:<18> but was:<19>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 38 more
+41) test0718(RegressionTest1)
+java.lang.AssertionError: '68400100' != '100'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0718(RegressionTest1.java:7837)
+42) test0719(RegressionTest1)
+java.lang.AssertionError: '6' != '-1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0719(RegressionTest1.java:7876)
+43) test0720(RegressionTest1)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0720(RegressionTest1.java:7914)
+44) test0722(RegressionTest1)
+java.lang.AssertionError: '3' != '4'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0722(RegressionTest1.java:8051)
+45) test0731(RegressionTest1)
+java.lang.AssertionError: '18000000' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0731(RegressionTest1.java:8371)
+46) test0744(RegressionTest1)
+org.junit.ComparisonFailure: expected:<[Eastern Standard] Time> but was:<[Coordinated Universal] Time>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0744(RegressionTest1.java:8719)
+47) test0747(RegressionTest1)
+java.lang.AssertionError: '18000026' != '26'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0747(RegressionTest1.java:8813)
+48) test0752(RegressionTest1)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0752(RegressionTest1.java:9010)
+49) test0757(RegressionTest1)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0757(RegressionTest1.java:9197)
+50) test0758(RegressionTest1)
+java.lang.AssertionError: '18' != '23'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0758(RegressionTest1.java:9248)
+51) test0759(RegressionTest1)
+org.junit.ComparisonFailure: '-1' != '4' expected:<[-1]> but was:<[4]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0759(RegressionTest1.java:9369)
+52) test0762(RegressionTest1)
+java.lang.AssertionError: '69' != '70'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0762(RegressionTest1.java:9487)
+53) test0765(RegressionTest1)
+java.lang.AssertionError: '69' != '70'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0765(RegressionTest1.java:9581)
+54) test0766(RegressionTest1)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0766(RegressionTest1.java:9654)
+55) test0767(RegressionTest1)
+java.lang.AssertionError: '3' != '4'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0767(RegressionTest1.java:9678)
+56) test0771(RegressionTest1)
+org.junit.ComparisonFailure: '-1' != '4' expected:<[-1]> but was:<[4]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0771(RegressionTest1.java:9823)
+57) test0773(RegressionTest1)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0773(RegressionTest1.java:9920)
+58) test0777(RegressionTest1)
+java.lang.AssertionError: '3' != '4'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0777(RegressionTest1.java:10079)
+59) test0782(RegressionTest1)
+org.junit.ComparisonFailure: '365' != '1' expected:<[365]> but was:<[1]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0782(RegressionTest1.java:10254)
+60) test0787(RegressionTest1)
+java.lang.AssertionError: '3' != '4'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0787(RegressionTest1.java:10394)
+61) test0793(RegressionTest1)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0793(RegressionTest1.java:10689)
+62) test0798(RegressionTest1)
+java.lang.AssertionError: '1969' != '1970'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0798(RegressionTest1.java:10918)
+63) test0802(RegressionTest1)
+java.lang.AssertionError: '19' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0802(RegressionTest1.java:11113)
+64) test0808(RegressionTest1)
+java.lang.IllegalArgumentException: Range duration field must be precise
+	at org.joda.time.field.PreciseDateTimeField.<init>(PreciseDateTimeField.java:61)
+	at RegressionTest1.test0808(RegressionTest1.java:11274)
+65) test0809(RegressionTest1)
+java.lang.AssertionError: '20' != '1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0809(RegressionTest1.java:11317)
+66) test0812(RegressionTest1)
+org.junit.ComparisonFailure: 'T19:00:00.000' != 'T00:00:00.000' expected:<T[19]:00:00.000> but was:<T[00]:00:00.000>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0812(RegressionTest1.java:11412)
+67) test0815(RegressionTest1)
+org.junit.ComparisonFailure: '1969-12-31T19:00:01.970-05:00/2025-04-01T15:28:44.466-04:00' != '1970-01-01T00:00:01.970Z/2025-04-01T19:28:44.466Z' expected:<19[69-12-31T19:00:01.970-05:00/2025-04-01T15:28:44.466-04:00]> but was:<19[70-01-01T00:00:01.970Z/2025-04-01T19:28:44.466Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0815(RegressionTest1.java:11463)
+68) test0817(RegressionTest1)
+org.junit.ComparisonFailure: 'EST' != 'UTC' expected:<[EST]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0817(RegressionTest1.java:11521)
+69) test0830(RegressionTest1)
+java.lang.AssertionError: '365' != '1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0830(RegressionTest1.java:11966)
+70) test0834(RegressionTest1)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0834(RegressionTest1.java:12062)
+71) test0838(RegressionTest1)
+java.lang.AssertionError: '-61962172947997' != '-61962191999997'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0838(RegressionTest1.java:12179)
+72) test0839(RegressionTest1)
+java.lang.AssertionError: '0' != '1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0839(RegressionTest1.java:12210)
+73) test0845(RegressionTest1)
+org.junit.ComparisonFailure: 'StrictChronology[JulianChronology[America/Toronto]]' != 'StrictChronology[JulianChronology[UTC]]' expected:<...gy[JulianChronology[[America/Toronto]]]> but was:<...gy[JulianChronology[[UTC]]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0845(RegressionTest1.java:12356)
+74) test0850(RegressionTest1)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0850(RegressionTest1.java:12524)
+75) test0868(RegressionTest1)
+java.lang.AssertionError: '69' != '70'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0868(RegressionTest1.java:12905)
+76) test0873(RegressionTest1)
+arrays first differed at element [2]; expected:<0> but was:<-3181>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest1.test0873(RegressionTest1.java:13037)
+	... 32 trimmed
+Caused by: java.lang.AssertionError: expected:<0> but was:<-3181>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 38 more
+77) test0874(RegressionTest1)
+java.lang.AssertionError: '-61567670548000' != '-61567689600000'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0874(RegressionTest1.java:13091)
+78) test0876(RegressionTest1)
+arrays first differed at element [0]; expected:<12> but was:<1>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest1.test0876(RegressionTest1.java:13145)
+	... 32 trimmed
+Caused by: java.lang.AssertionError: expected:<12> but was:<1>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 38 more
+79) test0880(RegressionTest1)
+org.junit.ComparisonFailure: '1969-12-18T19:00:00.007-05:00/1969-12-18T19:00:00.097-05:00' != '1969-12-19T00:00:00.007Z/1969-12-19T00:00:00.097Z' expected:<1969-12-1[8T19:00:00.007-05:00/1969-12-18T19:00:00.097-05:00]> but was:<1969-12-1[9T00:00:00.007Z/1969-12-19T00:00:00.097Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0880(RegressionTest1.java:13294)
+80) test0881(RegressionTest1)
+org.junit.ComparisonFailure: expected:<[Eastern Standard] Time> but was:<[Coordinated Universal] Time>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0881(RegressionTest1.java:13375)
+81) test0883(RegressionTest1)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0883(RegressionTest1.java:13454)
+82) test0885(RegressionTest1)
+org.junit.ComparisonFailure: expected:<Wed Dec 31 [00]:00:00 EST 1969> but was:<Wed Dec 31 [19]:00:00 EST 1969>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0885(RegressionTest1.java:13539)
+83) test0890(RegressionTest1)
+java.lang.AssertionError: '6' != '-1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0890(RegressionTest1.java:13780)
+84) test0891(RegressionTest1)
+java.lang.AssertionError: '3' != '4'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0891(RegressionTest1.java:13804)
+85) test0898(RegressionTest1)
+java.lang.AssertionError: '31' != '1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0898(RegressionTest1.java:14034)
+86) test0906(RegressionTest1)
+java.lang.AssertionError: '3' != '4'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0906(RegressionTest1.java:14222)
+87) test0907(RegressionTest1)
+org.junit.ComparisonFailure: expected:<Wed Dec 31 [00]:00:00 EST 1969> but was:<Wed Dec 31 [19]:00:00 EST 1969>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0907(RegressionTest1.java:14275)
+88) test0914(RegressionTest1)
+org.junit.ComparisonFailure: '19:59:35.035' != '00:59:35.035' expected:<[19]:59:35.035> but was:<[00]:59:35.035>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0914(RegressionTest1.java:14461)
+89) test0915(RegressionTest1)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0915(RegressionTest1.java:14475)
+90) test0916(RegressionTest1)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0916(RegressionTest1.java:14530)
+91) test0918(RegressionTest1)
+java.lang.AssertionError: '-1' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0918(RegressionTest1.java:14606)
+92) test0924(RegressionTest1)
+java.lang.AssertionError: '-25200000' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0924(RegressionTest1.java:14814)
+93) test0925(RegressionTest1)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0925(RegressionTest1.java:14853)
+94) test0927(RegressionTest1)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0927(RegressionTest1.java:14931)
+95) test0930(RegressionTest1)
+arrays first differed at element [2]; expected:<18> but was:<19>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest1.test0930(RegressionTest1.java:15053)
+	... 32 trimmed
+Caused by: java.lang.AssertionError: expected:<18> but was:<19>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 38 more
+96) test0938(RegressionTest1)
+java.lang.AssertionError: '43200' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0938(RegressionTest1.java:15309)
+97) test0944(RegressionTest1)
+java.lang.AssertionError: '1969' != '1970'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0944(RegressionTest1.java:15462)
+98) test0945(RegressionTest1)
+org.junit.ComparisonFailure: '365' != '1' expected:<[365]> but was:<[1]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0945(RegressionTest1.java:15480)
+99) test0953(RegressionTest1)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0953(RegressionTest1.java:15690)
+100) test0954(RegressionTest1)
+org.junit.ComparisonFailure: '1969-12-31' != '1970-01-01' expected:<19[69-12-3]1> but was:<19[70-01-0]1>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0954(RegressionTest1.java:15708)
+101) test0957(RegressionTest1)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0957(RegressionTest1.java:15928)
+102) test0966(RegressionTest1)
+java.lang.AssertionError: '69' != '70'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0966(RegressionTest1.java:16215)
+103) test0971(RegressionTest1)
+java.lang.AssertionError: '-241200000' != '-259200000'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0971(RegressionTest1.java:16381)
+104) test0973(RegressionTest1)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest1.test0973(RegressionTest1.java:16438)
+105) test0977(RegressionTest1)
+java.lang.AssertionError: '365' != '1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0977(RegressionTest1.java:16536)
+106) test0978(RegressionTest1)
+java.lang.AssertionError: '68400100' != '100'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0978(RegressionTest1.java:16551)
+107) test0980(RegressionTest1)
+java.lang.AssertionError: '-18000000' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0980(RegressionTest1.java:16583)
+108) test0993(RegressionTest1)
+org.junit.ComparisonFailure: expected:<Wed Dec 31 [00]:00:00 EST 1969> but was:<Wed Dec 31 [19]:00:00 EST 1969>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest1.test0993(RegressionTest1.java:16939)
+109) test0998(RegressionTest1)
+java.lang.AssertionError: '69' != '70'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest1.test0998(RegressionTest1.java:17034)
+
+FAILURES!!!
+Tests run: 500,  Failures: 109
+
+JUnit version 4.13.2
+.E.....E..............E..............E...........................E...E.E.E........E.......E........E.E...E..E.................E.......E.E..E.E.E................E.E.E...E..E....................E....................E...E.........E.E...E....E.E.......E..E.......E.........E.....E..E......E.E..E........E.................E.E..E....................E......E.E...E...E...........E...................E........E.....E.E..E.........E.E........E..E......................E........E...E....E..E..E.E...E..E.....E
+Time: 0.234
+There were 71 failures:
+1) test1001(RegressionTest2)
+java.lang.IllegalArgumentException: Range duration field must be precise
+	at org.joda.time.field.PreciseDateTimeField.<init>(PreciseDateTimeField.java:61)
+	at RegressionTest2.test1001(RegressionTest2.java:47)
+2) test1006(RegressionTest2)
+org.junit.ComparisonFailure: 'T18:59:28.001' != 'T23:59:28.001' expected:<T[18]:59:28.001> but was:<T[23]:59:28.001>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1006(RegressionTest2.java:167)
+3) test1020(RegressionTest2)
+java.lang.AssertionError: '20' != '19'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1020(RegressionTest2.java:646)
+4) test1034(RegressionTest2)
+java.lang.AssertionError: '9961200000' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1034(RegressionTest2.java:1027)
+5) test1061(RegressionTest2)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1061(RegressionTest2.java:1576)
+6) test1064(RegressionTest2)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1064(RegressionTest2.java:1679)
+7) test1065(RegressionTest2)
+java.lang.AssertionError: '68400' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1065(RegressionTest2.java:1706)
+8) test1066(RegressionTest2)
+arrays first differed at element [2]; expected:<18> but was:<19>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest2.test1066(RegressionTest2.java:1753)
+	... 32 trimmed
+Caused by: java.lang.AssertionError: expected:<18> but was:<19>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 38 more
+9) test1074(RegressionTest2)
+java.lang.AssertionError: '4544201087999965' != '4544201174399965'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1074(RegressionTest2.java:2048)
+10) test1081(RegressionTest2)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1081(RegressionTest2.java:2374)
+11) test1089(RegressionTest2)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1089(RegressionTest2.java:2571)
+12) test1090(RegressionTest2)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1090(RegressionTest2.java:2696)
+13) test1093(RegressionTest2)
+org.junit.ComparisonFailure: 'Eastern Standard Time' != 'Coordinated Universal Time' expected:<[Eastern Standard] Time> but was:<[Coordinated Universal] Time>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1093(RegressionTest2.java:2764)
+14) test1095(RegressionTest2)
+java.lang.AssertionError: '-18000000' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1095(RegressionTest2.java:2812)
+15) test1112(RegressionTest2)
+org.junit.ComparisonFailure: 'Eastern Standard Time' != 'Coordinated Universal Time' expected:<[Eastern Standard] Time> but was:<[Coordinated Universal] Time>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1112(RegressionTest2.java:3230)
+16) test1119(RegressionTest2)
+java.lang.AssertionError: '19' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1119(RegressionTest2.java:3443)
+17) test1120(RegressionTest2)
+org.junit.ComparisonFailure: 'Eastern Standard Time' != 'Coordinated Universal Time' expected:<[Eastern Standard] Time> but was:<[Coordinated Universal] Time>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1120(RegressionTest2.java:3486)
+18) test1122(RegressionTest2)
+java.lang.AssertionError: '1736382564229' != '1736364564229'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1122(RegressionTest2.java:3539)
+19) test1123(RegressionTest2)
+org.junit.ComparisonFailure: 'Eastern Standard Time' != 'Coordinated Universal Time' expected:<[Eastern Standard] Time> but was:<[Coordinated Universal] Time>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1123(RegressionTest2.java:3586)
+20) test1124(RegressionTest2)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1124(RegressionTest2.java:3623)
+21) test1140(RegressionTest2)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1140(RegressionTest2.java:4276)
+22) test1141(RegressionTest2)
+org.junit.ComparisonFailure: expected:<[Sat Dec 31 19:00:00 EST 1960]> but was:<[Thu Dec 31 19:00:00 EST 1959]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at RegressionTest2.test1141(RegressionTest2.java:4297)
+23) test1142(RegressionTest2)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1142(RegressionTest2.java:4339)
+24) test1145(RegressionTest2)
+arrays first differed at element [2]; expected:<0> but was:<-3181>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest2.test1145(RegressionTest2.java:4556)
+	... 32 trimmed
+Caused by: java.lang.AssertionError: expected:<0> but was:<-3181>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 38 more
+25) test1147(RegressionTest2)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1147(RegressionTest2.java:4731)
+26) test1167(RegressionTest2)
+java.lang.AssertionError: '19' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1167(RegressionTest2.java:5316)
+27) test1187(RegressionTest2)
+arrays first differed at element [2]; expected:<0> but was:<-3181>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest2.test1187(RegressionTest2.java:5890)
+	... 32 trimmed
+Caused by: java.lang.AssertionError: expected:<0> but was:<-3181>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 38 more
+28) test1190(RegressionTest2)
+java.lang.AssertionError: '3' != '4'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1190(RegressionTest2.java:5942)
+29) test1199(RegressionTest2)
+java.lang.AssertionError: '9961200000' != '32'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1199(RegressionTest2.java:6200)
+30) test1200(RegressionTest2)
+java.lang.IllegalArgumentException: Range duration field must be precise
+	at org.joda.time.field.PreciseDateTimeField.<init>(PreciseDateTimeField.java:61)
+	at RegressionTest2.test1200(RegressionTest2.java:6234)
+31) test1203(RegressionTest2)
+java.lang.AssertionError: '1969' != '1970'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1203(RegressionTest2.java:6324)
+32) test1207(RegressionTest2)
+org.junit.ComparisonFailure: '1932W133' != '1932W134' expected:<1932W13[3]> but was:<1932W13[4]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1207(RegressionTest2.java:6433)
+33) test1208(RegressionTest2)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1208(RegressionTest2.java:6456)
+34) test1215(RegressionTest2)
+arrays first differed at element [2]; expected:<0> but was:<-3181>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest2.test1215(RegressionTest2.java:6657)
+	... 32 trimmed
+Caused by: java.lang.AssertionError: expected:<0> but was:<-3181>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 38 more
+35) test1217(RegressionTest2)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1217(RegressionTest2.java:6786)
+36) test1224(RegressionTest2)
+java.lang.AssertionError: '18000026' != '26'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1224(RegressionTest2.java:6939)
+37) test1233(RegressionTest2)
+java.lang.AssertionError: '-25200000' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1233(RegressionTest2.java:7322)
+38) test1238(RegressionTest2)
+java.lang.AssertionError: '-18000000' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1238(RegressionTest2.java:7476)
+39) test1240(RegressionTest2)
+java.lang.AssertionError: '19' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1240(RegressionTest2.java:7517)
+40) test1246(RegressionTest2)
+arrays first differed at element [2]; expected:<18> but was:<19>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest2.test1246(RegressionTest2.java:7622)
+	... 32 trimmed
+Caused by: java.lang.AssertionError: expected:<18> but was:<19>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 38 more
+41) test1247(RegressionTest2)
+java.lang.AssertionError: '64799999' != '82799999'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1247(RegressionTest2.java:7653)
+42) test1249(RegressionTest2)
+java.lang.AssertionError: '241200060' != '259200060'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1249(RegressionTest2.java:7704)
+43) test1257(RegressionTest2)
+java.lang.IllegalArgumentException: Range duration field must be precise
+	at org.joda.time.field.PreciseDateTimeField.<init>(PreciseDateTimeField.java:61)
+	at RegressionTest2.test1257(RegressionTest2.java:8008)
+44) test1274(RegressionTest2)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1274(RegressionTest2.java:8552)
+45) test1275(RegressionTest2)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1275(RegressionTest2.java:8594)
+46) test1277(RegressionTest2)
+java.lang.AssertionError: '18000026' != '26'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1277(RegressionTest2.java:8719)
+47) test1297(RegressionTest2)
+arrays first differed at element [2]; expected:<0> but was:<-3181>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest2.test1297(RegressionTest2.java:9524)
+	... 32 trimmed
+Caused by: java.lang.AssertionError: expected:<0> but was:<-3181>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 38 more
+48) test1303(RegressionTest2)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1303(RegressionTest2.java:9729)
+49) test1304(RegressionTest2)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1304(RegressionTest2.java:9781)
+50) test1307(RegressionTest2)
+arrays first differed at element [0]; expected:<12> but was:<1>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest2.test1307(RegressionTest2.java:9877)
+	... 32 trimmed
+Caused by: java.lang.AssertionError: expected:<12> but was:<1>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 38 more
+51) test1310(RegressionTest2)
+org.junit.ComparisonFailure: 'GregorianChronology[America/Toronto]' != 'GregorianChronology[UTC]' expected:<GregorianChronology[[America/Toronto]]> but was:<GregorianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1310(RegressionTest2.java:10004)
+52) test1321(RegressionTest2)
+java.lang.AssertionError: '19' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1321(RegressionTest2.java:10278)
+53) test1340(RegressionTest2)
+java.lang.AssertionError: '18000000' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1340(RegressionTest2.java:10896)
+54) test1348(RegressionTest2)
+java.lang.AssertionError: '-61565683347975' != '-61565702399975'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1348(RegressionTest2.java:11106)
+55) test1353(RegressionTest2)
+java.lang.AssertionError: '-1' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1353(RegressionTest2.java:11286)
+56) test1354(RegressionTest2)
+java.lang.AssertionError: '1969' != '1970'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1354(RegressionTest2.java:11309)
+57) test1356(RegressionTest2)
+org.junit.ComparisonFailure: 'America/Toronto' != 'UTC' expected:<[America/Toronto]> but was:<[UTC]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1356(RegressionTest2.java:11378)
+58) test1365(RegressionTest2)
+org.junit.ComparisonFailure: 'Eastern Standard Time' != 'Coordinated Universal Time' expected:<[Eastern Standard] Time> but was:<[Coordinated Universal] Time>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1365(RegressionTest2.java:11745)
+59) test1366(RegressionTest2)
+java.lang.AssertionError: '68400100' != '100'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1366(RegressionTest2.java:11778)
+60) test1374(RegressionTest2)
+org.junit.ComparisonFailure: 'T18:59:28.001' != 'T23:59:28.001' expected:<T[18]:59:28.001> but was:<T[23]:59:28.001>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1374(RegressionTest2.java:11971)
+61) test1376(RegressionTest2)
+java.lang.AssertionError: '6' != '-1'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1376(RegressionTest2.java:12029)
+62) test1398(RegressionTest2)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1398(RegressionTest2.java:12719)
+63) test1406(RegressionTest2)
+java.lang.AssertionError: '-18000000' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1406(RegressionTest2.java:12922)
+64) test1409(RegressionTest2)
+org.junit.ComparisonFailure: 'JulianChronology[America/Toronto]' != 'JulianChronology[UTC]' expected:<JulianChronology[[America/Toronto]]> but was:<JulianChronology[[UTC]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1409(RegressionTest2.java:13016)
+65) test1413(RegressionTest2)
+java.lang.AssertionError: '18000026' != '26'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1413(RegressionTest2.java:13270)
+66) test1415(RegressionTest2)
+java.lang.AssertionError: '18000000' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1415(RegressionTest2.java:13385)
+67) test1417(RegressionTest2)
+org.junit.ComparisonFailure: 'Eastern Standard Time' != 'Coordinated Universal Time' expected:<[Eastern Standard] Time> but was:<[Coordinated Universal] Time>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1417(RegressionTest2.java:13493)
+68) test1418(RegressionTest2)
+org.junit.ComparisonFailure: '1969-12-31T19:00:00.001-05:00' != '1970-01-01T00:00:00.001Z' expected:<19[69-12-31T19:00:00.001-05:00]> but was:<19[70-01-01T00:00:00.001Z]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at RegressionTest2.test1418(RegressionTest2.java:13589)
+69) test1421(RegressionTest2)
+arrays first differed at element [2]; expected:<0> but was:<-3181>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:418)
+	at org.junit.Assert.assertArrayEquals(Assert.java:429)
+	at RegressionTest2.test1421(RegressionTest2.java:13646)
+	... 32 trimmed
+Caused by: java.lang.AssertionError: expected:<0> but was:<-3181>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 38 more
+70) test1423(RegressionTest2)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1423(RegressionTest2.java:13692)
+71) test1428(RegressionTest2)
+java.lang.AssertionError: '1140' != '0'
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at RegressionTest2.test1428(RegressionTest2.java:13965)
+
+FAILURES!!!
+Tests run: 428,  Failures: 71
+
